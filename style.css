@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  width: 100vw;
+  max-width: 100%;
+}
+
+.container {
+  margin: 5px auto;
+  width: 80%;
+  padding: 0 15px;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+header .logo h1 {
+  font-weight: 900;
+  font-size: 34px;
+}
+
+header nav ul {
+  display: flex;
+  height: 70%;
+  align-items: center;
+}
+
+header nav ul li {
+  align-self: flex-end;
+}
+
+header nav ul li a {
+  margin-left: 45px;
+  color: hsl(236, 13%, 42%);
+  font-size: 14px;
+}
+
+/* main */
+
+/* box 1 */
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+.box1 {
+  width: 65%;
+}
+
+.box1 .image {
+  margin-bottom: 10px;
+}
+
+.box1 .image,
+.box1 .image img {
+  width: 100%;
+}
+
+.box1 .img2 {
+  display: none;
+}
+
+.box1 .content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box1 .content .left {
+  width: 45%;
+}
+
+.box1 .content .left h1 {
+  font-size: 49px;
+  color: #00001a;
+}
+
+.box1 .content .right {
+  width: 45%;
+}
+
+.box1 .content .right p {
+  color: hsl(236, 13%, 42%);
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+
+.box1 .content .right button {
+  padding: 15px 35px;
+  background-color: #f15d51;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+
+.box2 {
+  width: 30%;
+  background-color: #00001a;
+  color: white;
+  padding: 28px;
+}
+
+.box2 h1 {
+  margin-bottom: 15px;
+  color: #e5a649;
+}
+
+.box2 .para {
+  padding: 38px 0;
+  border-bottom: 1px solid white;
+}
+
+.box2 .para:nth-of-type(1) {
+  padding-top: 0;
+}
+
+.box2 .para:nth-of-type(3) {
+  border: none;
+}
+
+.box2 .para h4 {
+  margin-bottom: 8px;
+}
+
+.box2 .para p {
+  line-height: 1.5em;
+  color: hsl(233, 8%, 79%);
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .pic {
+  display: flex;
+  width: 38%;
+  margin-right: 40px;
+}
+
+footer .pic img {
+  width: 25%;
+  margin-right: 15px;
+}
+
+footer .pic .text {
+  padding: 5px;
+}
+
+footer .pic .text h2,
+h4 {
+  margin-bottom: 7px;
+}
+
+footer .pic .text h2,
+p {
+  color: hsl(233, 8%, 79%);
+}
+
+footer .pic:nth-of-type(3) {
+  margin-right: 0;
+}
