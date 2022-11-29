@@ -246,9 +246,6 @@ footer .pic:nth-of-type(3) {
 }
 
 @media (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
   /* header */
   header nav.h-nav-menu {
     display: none;
@@ -314,8 +311,6 @@ footer .pic:nth-of-type(3) {
   /* footer */
   footer .pic img {
     object-fit: cover;
-  }
-  body {
-    overflow-x: hidden;
+    width: 38%;
   }
 }
